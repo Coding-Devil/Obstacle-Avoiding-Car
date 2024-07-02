@@ -1,8 +1,6 @@
 
-
-
-```markdown
-# Abstraction and Edge Avoiding Car
+# Obstruction and Edge Avoiding Car
+---
 
 ## Overview
 
@@ -135,8 +133,3 @@ void turnLeft() {
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-```
-
----
-
-This README file contains all the necessary information about the project, its components, installation instructions, and more, without mentioning a license.
