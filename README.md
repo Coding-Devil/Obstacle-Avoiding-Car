@@ -103,7 +103,7 @@ void turnLeft() {
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/abstraction-edge-avoiding-car.git
+   git clone https://github.com/Coding-Devil/Obstacle-Avoiding-Car.git
    ```
 
 2. Install the Arduino IDE from [Arduino's official website](https://www.arduino.cc/en/software).
