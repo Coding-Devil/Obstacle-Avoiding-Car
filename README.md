@@ -16,7 +16,7 @@ This project is designed to develop an autonomous car capable of navigating its 
 
 ## Circuit Diagram
 
-![Wiring Diagram](docs/wiring_diagram.png)
+![Wiring Diagram](https://techatronic.com/wp-content/uploads/2020/02/Obstacle-avoiding-Robot_bb-n-1024x540.jpg)
 
 - **IR Sensor** connected to `A0`.
 - **Ultrasonic Sensor** connected to `9` (Trig) and `10` (Echo).
