@@ -1,11 +1,11 @@
 
-# Obstruction and Edge Avoiding Car
+# 🚗 Obstruction and Edge Avoiding Car
 
-## Overview
+## 📝 Overview
 
 This project is designed to develop an autonomous car capable of navigating its environment while avoiding edges and obstacles. Using Internet of Things (IoT) technologies, the car integrates various sensors and a microcontroller to achieve autonomous navigation.
 
-## Components Used
+## 🔧 Components Used
 
 - **Chassis Kit of Car**: Structural frame and wheels.
 - **Arduino Uno Board**: Microcontroller for processing and control.
@@ -14,7 +14,7 @@ This project is designed to develop an autonomous car capable of navigating its 
 - **Batteries (40V, 4 nos)**: Power source for the car's electronics.
 - **Wires**: For connections between components.
 
-## Circuit Diagram
+## 📊 Circuit Diagram
 
 ![Wiring Diagram](https://techatronic.com/wp-content/uploads/2020/02/Obstacle-avoiding-Robot_bb-n-1024x540.jpg)
 
@@ -22,11 +22,11 @@ This project is designed to develop an autonomous car capable of navigating its 
 - **Ultrasonic Sensor** connected to `9` (Trig) and `10` (Echo).
 - **Motors** connected to `3` (Left Motor) and `5` (Right Motor).
 
-## Software Requirements
+## 💻 Software Requirements
 
 - **Arduino IDE**: For programming the Arduino Uno.
 
-## Arduino Code
+## 🔢 Arduino Code
 
 ```cpp
 #include <Ultrasonic.h>
@@ -98,7 +98,7 @@ void turnLeft() {
 }
 ```
 
-## Installation
+## 🔧 Installation
 
 1. Clone the repository:
 
@@ -112,23 +112,23 @@ void turnLeft() {
 
 4. Select the correct board and port from the Tools menu and upload the code to your Arduino Uno.
 
-## Testing
+## 🛠️ Testing
 
 1. Power the car using the 40V batteries.
 2. Place the car on a flat surface and observe its behavior.
 3. Ensure the car detects edges and obstacles correctly, adjusting the sensor sensitivity as needed.
 
-## Troubleshooting
+## 🧰 Troubleshooting
 
 - **Car does not move**: Check motor connections and battery voltage.
 - **Sensors not detecting edges or obstacles**: Verify sensor wiring and calibration.
 
-## Future Improvements
+## 🚀 Future Improvements
 
 - Enhance sensor accuracy and range.
 - Integrate additional sensors for improved navigation.
 - Optimize control algorithms for smoother movement.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
