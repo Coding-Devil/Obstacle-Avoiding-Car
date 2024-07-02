@@ -1,6 +1,5 @@
 
 # Obstruction and Edge Avoiding Car
----
 
 ## Overview
 
